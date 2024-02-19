@@ -51,53 +51,50 @@
 <hr>
 <h2 tabindex="-1" dir="auto"><a id="user-content-developers" class="anchor" aria-hidden="true" tabindex="-1" href="#developers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发商</font></font></h2>
 <h3 tabindex="-1" dir="auto"><a id="user-content-setting-up-openolat-in-eclipse-and-postgresql" class="anchor" aria-hidden="true" tabindex="-1" href="#setting-up-openolat-in-eclipse-and-postgresql"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 Eclipse 和 PostgreSQL 中设置 OpenOlat</font></font></h3>
-<p dir="auto">This is an installation guide for developers.</p>
-<h4 tabindex="-1" dir="auto"><a id="user-content-preconditions" class="anchor" aria-hidden="true" tabindex="-1" href="#preconditions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Preconditions</h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是面向开发人员的安装指南。</font></font></p>
+<h4 tabindex="-1" dir="auto"><a id="user-content-preconditions" class="anchor" aria-hidden="true" tabindex="-1" href="#preconditions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">前提条件</font></font></h4>
 <ul dir="auto">
-<li>Check that you are using maven 3.8 or higher (mvn -V)</li>
-<li>Check that you have the git plugin installed in eclipse</li>
-<li>Check that you have git installed</li>
-<li>Check that you have Java 17 installed</li>
-<li>Check that you have Tomcat 10.0 or 10.1 installed</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查您是否使用 maven 3.8 或更高版本 (mvn -V)</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查eclipse中是否安装了git插件</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查你是否安装了git</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查您是否安装了 Java 17</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查您是否安装了 Tomcat 10.0 或 10.1</font></font></li>
 </ul>
-<h4 tabindex="-1" dir="auto"><a id="user-content-1-in-eclipse" class="anchor" aria-hidden="true" tabindex="-1" href="#1-in-eclipse"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>1. In Eclipse</h4>
+<h4 tabindex="-1" dir="auto"><a id="user-content-1-in-eclipse" class="anchor" aria-hidden="true" tabindex="-1" href="#1-in-eclipse"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1. 在日食中</font></font></h4>
 <ol dir="auto">
 <li>
-<p dir="auto">Clone OpenOlat:<br>
-Create a repository location (<code>https://github.com/OpenOLAT/OpenOLAT.git</code>) and
-clone the repository. Right click to clone the repository into your workspace.</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">克隆 OpenOlat：</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+创建存储库位置 ( </font></font><code>https://github.com/OpenOLAT/OpenOLAT.git</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">) 并克隆存储库。右键单击将存储库克隆到您的工作区。</font></font></p>
 </li>
 <li>
-<p dir="auto">Import OpenOlat as an Eclipse project:<br>
-In Eclipse, use <code>Import -&gt; Git -&gt; Projects from Git (with smart import)</code> and import
-the local OpenOlat clone created in the previous step.</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将 OpenOlat 导入为 Eclipse 项目：</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+在 Eclipse 中，使用</font></font><code>Import -&gt; Git -&gt; Projects from Git (with smart import)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并导入上一步中创建的本地 OpenOlat 克隆。</font></font></p>
 </li>
 <li>
-<p dir="auto">Disable validators:</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">禁用验证器：</font></font></p>
 <ul dir="auto">
-<li>Right-click on the project and open the project properties. Then search for <code>Validation</code>. Enable the project specific settings and disable all XML, XSLT, HTML and JPA validators.</li>
-<li>Right-click on the project and select <code>Validate</code>.</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">右键单击该项目并打开项目属性。然后搜索</font></font><code>Validation</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.启用项目特定设置并禁用所有 XML、XSLT、HTML 和 JPA 验证器。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">右键单击该项目并选择</font></font><code>Validate</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
 </ul>
 </li>
 <li>
-<p dir="auto">Create the OpenOlat configuration:<br>
-Copy the <code>olat.local.properties.sample</code> in the project root folder to <code>src/main/java/olat.local.properties</code>, adjust
-the file to match your setup. See the comments in the file header for more configuration options.</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建 OpenOlat 配置：将</font><font style="vertical-align: inherit;">项目根文件夹中的</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+复制到</font><font style="vertical-align: inherit;">，调整文件以匹配您的设置。有关更多配置选项，请参阅文件头中的注释。</font></font><code>olat.local.properties.sample</code><font style="vertical-align: inherit;"></font><code>src/main/java/olat.local.properties</code><font style="vertical-align: inherit;"></font></p>
 </li>
 <li>
-<p dir="auto">Refresh the project</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">刷新项目</font></font></p>
 </li>
 <li>
-<p dir="auto">Setup the dependencies and compile</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置依赖并编译</font></font></p>
 <ul dir="auto">
-<li>When running the first time, right-click the project and select <code>Maven -&gt; Select Maven Profiles...</code>. Make sure <code>tomcat</code> and  <code>postgresqlunittests</code> are selected.</li>
-<li>Right-click on the project and run <code>Maven -&gt; Update Project</code>.</li>
-<li>Make sure the project compiled without errors. Warnings are ok. If the project did not compile, you have to fix the problems before you proceed. See <a href="#troubleshooting">Troubleshooting</a> section below.</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第一次运行时，右键单击该项目并选择</font></font><code>Maven -&gt; Select Maven Profiles...</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。确保</font></font><code>tomcat</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和  </font></font><code>postgresqlunittests</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">被选中。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">右键单击该项目并运行</font></font><code>Maven -&gt; Update Project</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保项目编译没有错误。警告没问题。如果项目未编译，您必须先解决问题，然后才能继续。请参阅下面的</font></font><a href="#troubleshooting"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">故障排除</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部分。</font></font></li>
 </ul>
 </li>
 </ol>
-<h4 tabindex="-1" dir="auto"><a id="user-content-2-setting-up-the-postgresql-database" class="anchor" aria-hidden="true" tabindex="-1" href="#2-setting-up-the-postgresql-database"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>2. Setting up the PostgreSQL database</h4>
-<p dir="auto">Create user <code>openolat</code> and a database <code>openolat</code></p>
+<h4 tabindex="-1" dir="auto"><a id="user-content-2-setting-up-the-postgresql-database" class="anchor" aria-hidden="true" tabindex="-1" href="#2-setting-up-the-postgresql-database"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2. 设置PostgreSQL数据库</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建用户</font></font><code>openolat</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和数据库</font></font><code>openolat</code></p>
 <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">CREATE</span> <span class="pl-k">USER</span> <span class="pl-en">openolat</span> WITH PASSWORD <span class="pl-s"><span class="pl-pds">'</span>openolat<span class="pl-pds">'</span></span>;
 <span class="pl-k">CREATE</span> <span class="pl-k">DATABASE</span> <span class="pl-en">openolat</span>;
 <span class="pl-k">GRANT</span> ALL PRIVILEGES <span class="pl-k">on</span> DATABASE openolat to openolat;</pre><div class="zeroclipboard-container">
@@ -112,7 +109,7 @@ GRANT ALL PRIVILEGES on DATABASE openolat to openolat;" tabindex="0" role="butto
 </svg>
     </clipboard-copy>
   </div></div>
-<p dir="auto">Write the OpenOlat database schema to the OpenOlat database:</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将 OpenOlat 数据库模式写入 OpenOlat 数据库：</font></font></p>
 <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir="auto"><pre>\c openolat openolat;
 \i src<span class="pl-k">/</span>main<span class="pl-k">/</span>resources<span class="pl-k">/</span>database<span class="pl-k">/</span>postgresql<span class="pl-k">/</span><span class="pl-c1">setupDatabase</span>.<span class="pl-c1">sql</span></pre><div class="zeroclipboard-container">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="\c openolat openolat;
@@ -125,8 +122,7 @@ GRANT ALL PRIVILEGES on DATABASE openolat to openolat;" tabindex="0" role="butto
 </svg>
     </clipboard-copy>
   </div></div>
-<p dir="auto">Set the DB connection port to 5432 (or the port on which your
-Postgres DB is running) in your <code>olat.local.properties</code> file:</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在文件中将数据库连接端口设置为 5432（或运行 Postgres 数据库的端口）</font></font><code>olat.local.properties</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>db.host.port=5432
 </code></pre><div class="zeroclipboard-container">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="db.host.port=5432" tabindex="0" role="button">
@@ -138,18 +134,16 @@ Postgres DB is running) in your <code>olat.local.properties</code> file:</p>
 </svg>
     </clipboard-copy>
   </div></div>
-<p dir="auto"><em>Optional:</em> if you want to run the jUnit tests, make sure you also create and initialize the
-test database that you configured in <code>src/test/profile/postgresql/olat.local.properties</code>.</p>
-<h4 tabindex="-1" dir="auto"><a id="user-content-3-setting-up-the-tomcat-server-in-eclipse" class="anchor" aria-hidden="true" tabindex="-1" href="#3-setting-up-the-tomcat-server-in-eclipse"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>3. Setting up the Tomcat server in Eclipse</h4>
-<p dir="auto">Setup a tomcat server by clicking on <code>OpenOlat -&gt; Run As -&gt; "Run on Server"</code>. The
-"Run on Server" wizard will pop up and you define define a new server. Look for
-<code>Apache -&gt; Tomcat v9.0</code>.</p>
-<p dir="auto">Add openolat as web application in the step "Add and remove" and click finish.</p>
-<p dir="auto">Double click the newly created server and increase the timeout to something like 180s.</p>
-<p dir="auto">Open the generated <code>server.xml</code> file and manually set the following parameters:</p>
+<p dir="auto"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可选：</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想要运行 jUnit 测试，请确保还创建并初始化您在 中配置的测试数据库</font></font><code>src/test/profile/postgresql/olat.local.properties</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h4 tabindex="-1" dir="auto"><a id="user-content-3-setting-up-the-tomcat-server-in-eclipse" class="anchor" aria-hidden="true" tabindex="-1" href="#3-setting-up-the-tomcat-server-in-eclipse"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3.在Eclipse中设置Tomcat服务器</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单击 设置 Tomcat 服务器</font></font><code>OpenOlat -&gt; Run As -&gt; "Run on Server"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。将弹出“在服务器上运行”向导，您可以定义一个新服务器。寻找
+</font></font><code>Apache -&gt; Tomcat v9.0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在“添加和删除”步骤中将 openolat 添加为 Web 应用程序，然后单击完成。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">双击新创建的服务器并将超时时间增加到 180 秒左右。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打开生成的</font></font><code>server.xml</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件并手动设置以下参数：</font></font></p>
 <ul dir="auto">
-<li>In the <code>Context</code> element set parameter <code>reloadable="false"</code></li>
-<li>Add a child element <code>Resources</code> and set the maximum cache size to 100000:</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>Context</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素集参数中</font></font><code>reloadable="false"</code></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加子元素</font></font><code>Resources</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并将最大缓存大小设置为100000：</font></font></li>
 </ul>
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>  &lt;Context docBase="OpenOLAT" path="/olat" reloadable="false" source="org.eclipse.jst.jee.server:OpenOLAT"&gt;
     &lt;Resources allowLinking="true" cacheMaxSize="100000" cachingAllowed="true"/&gt;
@@ -166,13 +160,12 @@ test database that you configured in <code>src/test/profile/postgresql/olat.loca
 </svg>
     </clipboard-copy>
   </div></div>
-<p dir="auto">You can now start the server and open the following URL
-<a href="http://localhost:8080/olat" rel="nofollow">http://localhost:8080/olat</a> in your favorite browser. You can
-log in with user <code>administrator</code> and password <code>openolat</code>.</p>
-<p dir="auto">Have fun, give feedback and contribute!</p>
-<h5 tabindex="-1" dir="auto"><a id="user-content-option-use-application-server-database-connection-pool" class="anchor" aria-hidden="true" tabindex="-1" href="#option-use-application-server-database-connection-pool"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Option: use application server database connection pool</h5>
-<p dir="auto">By default and for your convenience the embedded connection pool is used, you don't need to configure anything. This is fine for simple development setups, but not recommended for production. To be as close as possible to a productive environment it is useful to use the application server connection pool also in the development environment:</p>
-<h6 tabindex="-1" dir="auto"><a id="user-content-first-add-the-following-properties-to-the-olatlocalproperties-file" class="anchor" aria-hidden="true" tabindex="-1" href="#first-add-the-following-properties-to-the-olatlocalproperties-file"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>First: add the following properties to the <code>olat.local.properties</code> file:</h6>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，您可以启动服务器并在您喜欢的浏览器中打开以下 URL
+ </font></font><a href="http://localhost:8080/olat" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://localhost:8080/olat</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。您可以使用用户名</font></font><code>administrator</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和密码</font><font style="vertical-align: inherit;">登录</font></font><code>openolat</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">玩得开心，提供反馈并做出贡献！</font></font></p>
+<h5 tabindex="-1" dir="auto"><a id="user-content-option-use-application-server-database-connection-pool" class="anchor" aria-hidden="true" tabindex="-1" href="#option-use-application-server-database-connection-pool"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选项：使用应用程序服务器数据库连接池</font></font></h5>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认情况下，为了方便起见，使用嵌入式连接池，您无需配置任何内容。这对于简单的开发设置来说很好，但不建议用于生产。为了尽可能接近生产环境，在开发环境中使用应用程序服务器连接池也很有用：</font></font></p>
+<h6 tabindex="-1" dir="auto"><a id="user-content-first-add-the-following-properties-to-the-olatlocalproperties-file" class="anchor" aria-hidden="true" tabindex="-1" href="#first-add-the-following-properties-to-the-olatlocalproperties-file"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首先：将以下属性添加到文件中</font></font><code>olat.local.properties</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></h6>
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>db.source=jndi
 db.jndi=java:comp/env/jdbc/OpenOLATDS
 </code></pre><div class="zeroclipboard-container">
@@ -186,7 +179,7 @@ db.jndi=java:comp/env/jdbc/OpenOLATDS" tabindex="0" role="button">
 </svg>
     </clipboard-copy>
   </div></div>
-<h6 tabindex="-1" dir="auto"><a id="user-content-second-add-the-resource-descriptor-to-your-tomcat-context-descriptor" class="anchor" aria-hidden="true" tabindex="-1" href="#second-add-the-resource-descriptor-to-your-tomcat-context-descriptor"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Second: add the resource descriptor to your tomcat context descriptor:</h6>
+<h6 tabindex="-1" dir="auto"><a id="user-content-second-add-the-resource-descriptor-to-your-tomcat-context-descriptor" class="anchor" aria-hidden="true" tabindex="-1" href="#second-add-the-resource-descriptor-to-your-tomcat-context-descriptor"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第二：将资源描述符添加到您的 tomcat 上下文描述符中：</font></font></h6>
 <div class="highlight highlight-text-xml notranslate position-relative overflow-auto" dir="auto"><pre>&lt;<span class="pl-ent">Resource</span> <span class="pl-e">auth</span>=<span class="pl-s"><span class="pl-pds">"</span>Container<span class="pl-pds">"</span></span> <span class="pl-e">driverClassName</span>=<span class="pl-s"><span class="pl-pds">"</span>org.postgresql.Driver<span class="pl-pds">"</span></span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>javax.sql.DataSource<span class="pl-pds">"</span></span>
           <span class="pl-e">maxIdle</span>=<span class="pl-s"><span class="pl-pds">"</span>4<span class="pl-pds">"</span></span> <span class="pl-e">maxTotal</span>=<span class="pl-s"><span class="pl-pds">"</span>16<span class="pl-pds">"</span></span> <span class="pl-e">maxWaitMillis</span>=<span class="pl-s"><span class="pl-pds">"</span>-1<span class="pl-pds">"</span></span>
           <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>jdbc/OpenOLATPostgresDS<span class="pl-pds">"</span></span>
@@ -209,16 +202,15 @@ db.jndi=java:comp/env/jdbc/OpenOLATDS" tabindex="0" role="button">
 </svg>
     </clipboard-copy>
   </div></div>
-<h3 tabindex="-1" dir="auto"><a id="user-content-alternate-databases" class="anchor" aria-hidden="true" tabindex="-1" href="#alternate-databases"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Alternate databases</h3>
-<h4 tabindex="-1" dir="auto"><a id="user-content-mysql" class="anchor" aria-hidden="true" tabindex="-1" href="#mysql"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>MySQL</h4>
-<p dir="auto">Note that MySQL is still supported but not recommended and support might
-eventually come to an end. Use Postgres if you can.</p>
-<h5 tabindex="-1" dir="auto"><a id="user-content-prerequisites" class="anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Prerequisites</h5>
+<h3 tabindex="-1" dir="auto"><a id="user-content-alternate-databases" class="anchor" aria-hidden="true" tabindex="-1" href="#alternate-databases"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">备用数据库</font></font></h3>
+<h4 tabindex="-1" dir="auto"><a id="user-content-mysql" class="anchor" aria-hidden="true" tabindex="-1" href="#mysql"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MySQL</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，MySQL 仍受支持，但不推荐，并且支持可能最终会终止。如果可以的话，使用 Postgres。</font></font></p>
+<h5 tabindex="-1" dir="auto"><a id="user-content-prerequisites" class="anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">先决条件</font></font></h5>
 <ul dir="auto">
-<li>MySQL 8.0 or greater</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MySQL 8.0 或更高版本</font></font></li>
 </ul>
-<h5 tabindex="-1" dir="auto"><a id="user-content-database-setup" class="anchor" aria-hidden="true" tabindex="-1" href="#database-setup"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Database setup</h5>
-<p dir="auto">Create user <code>openolat</code> and a database <code>openolat</code></p>
+<h5 tabindex="-1" dir="auto"><a id="user-content-database-setup" class="anchor" aria-hidden="true" tabindex="-1" href="#database-setup"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据库设置</font></font></h5>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建用户</font></font><code>openolat</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和数据库</font></font><code>openolat</code></p>
 <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">CREATE</span> <span class="pl-k">DATABASE</span> <span class="pl-en">IF</span> NOT EXISTS openolat;
 <span class="pl-k">GRANT</span> ALL PRIVILEGES <span class="pl-k">ON</span> openolat.<span class="pl-k">*</span> TO <span class="pl-s"><span class="pl-pds">'</span>openolat<span class="pl-pds">'</span></span> IDENTIFIED BY <span class="pl-s"><span class="pl-pds">'</span>openolat<span class="pl-pds">'</span></span>;
 <span class="pl-k">UPDATE</span> <span class="pl-c1">mysql</span>.<span class="pl-c1">user</span> <span class="pl-k">SET</span> HOST<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>localhost<span class="pl-pds">'</span></span> <span class="pl-k">WHERE</span> USER<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>openolat<span class="pl-pds">'</span></span> <span class="pl-k">AND</span> HOST<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>%<span class="pl-pds">'</span></span>;
@@ -235,7 +227,7 @@ FLUSH PRIVILEGES;" tabindex="0" role="button">
 </svg>
     </clipboard-copy>
   </div></div>
-<p dir="auto">The time zone needs to be set if you don't already defined it.</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您尚未定义时区，则需要进行设置。</font></font></p>
 <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">SET</span> GLOBAL time_zone <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>Europe/Zurich<span class="pl-pds">'</span></span>;</pre><div class="zeroclipboard-container">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="SET GLOBAL time_zone = 'Europe/Zurich';" tabindex="0" role="button">
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
@@ -246,7 +238,7 @@ FLUSH PRIVILEGES;" tabindex="0" role="button">
 </svg>
     </clipboard-copy>
   </div></div>
-<p dir="auto">Write the OpenOlat database schema to the OpenOlat database. Example for MySQL:</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将 OpenOlat 数据库架构写入 OpenOlat 数据库。 MySQL 示例：</font></font></p>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>mysql -u openolat -p openolat <span class="pl-k">&lt;</span> src/main/resources/database/mysql/setupDatabase.sql</pre><div class="zeroclipboard-container">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="mysql -u openolat -p openolat < src/main/resources/database/mysql/setupDatabase.sql" tabindex="0" role="button">
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
@@ -257,12 +249,12 @@ FLUSH PRIVILEGES;" tabindex="0" role="button">
 </svg>
     </clipboard-copy>
   </div></div>
-<h5 tabindex="-1" dir="auto"><a id="user-content-tomcat-setup" class="anchor" aria-hidden="true" tabindex="-1" href="#tomcat-setup"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Tomcat Setup</h5>
-<p dir="auto">Open the generated server.xml file and manually set the following parameters:</p>
+<h5 tabindex="-1" dir="auto"><a id="user-content-tomcat-setup" class="anchor" aria-hidden="true" tabindex="-1" href="#tomcat-setup"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tomcat 设置</font></font></h5>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打开生成的server.xml文件，手动设置以下参数：</font></font></p>
 <ul dir="auto">
-<li>In all <code>Connector</code> elements set parameter <code>URIEncoding="UTF-8"</code></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在所有</font></font><code>Connector</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素中设置参数</font></font><code>URIEncoding="UTF-8"</code></li>
 </ul>
-<h5 tabindex="-1" dir="auto"><a id="user-content-option-application-server-connection-pool" class="anchor" aria-hidden="true" tabindex="-1" href="#option-application-server-connection-pool"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Option: application server connection pool</h5>
+<h5 tabindex="-1" dir="auto"><a id="user-content-option-application-server-connection-pool" class="anchor" aria-hidden="true" tabindex="-1" href="#option-application-server-connection-pool"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选项：应用程序服务器连接池</font></font></h5>
 <div class="highlight highlight-text-xml notranslate position-relative overflow-auto" dir="auto"><pre>&lt;<span class="pl-ent">Resource</span> <span class="pl-e">auth</span>=<span class="pl-s"><span class="pl-pds">"</span>Container<span class="pl-pds">"</span></span> <span class="pl-e">driverClassName</span>=<span class="pl-s"><span class="pl-pds">"</span>com.mysql.cj.jdbc.Driver<span class="pl-pds">"</span></span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>javax.sql.DataSource<span class="pl-pds">"</span></span>
           <span class="pl-e">maxIdle</span>=<span class="pl-s"><span class="pl-pds">"</span>4<span class="pl-pds">"</span></span> <span class="pl-e">maxTotal</span>=<span class="pl-s"><span class="pl-pds">"</span>16<span class="pl-pds">"</span></span> <span class="pl-e">maxWaitMillis</span>=<span class="pl-s"><span class="pl-pds">"</span>10000<span class="pl-pds">"</span></span>
           <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>jdbc/OpenOLATDS<span class="pl-pds">"</span></span>
@@ -285,87 +277,68 @@ FLUSH PRIVILEGES;" tabindex="0" role="button">
 </svg>
     </clipboard-copy>
   </div></div>
-<h4 tabindex="-1" dir="auto"><a id="user-content-oracle" class="anchor" aria-hidden="true" tabindex="-1" href="#oracle"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Oracle</h4>
-<p dir="auto">Oracle support is experimental. The database schema is available and
-updated for historic reason, however running OpenOlat with Oracle is
-largely untested. Do not use it for production before you tested the
-entire application. We are interested in adding Oracle to our list of
-fully supported and recommended database, contact us if you want to
-sponsor this compatibility.</p>
-<h3 tabindex="-1" dir="auto"><a id="user-content-troubleshooting" class="anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Troubleshooting</h3>
+<h4 tabindex="-1" dir="auto"><a id="user-content-oracle" class="anchor" aria-hidden="true" tabindex="-1" href="#oracle"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">甲骨文</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oracle 支持是实验性的。由于历史原因，数据库模式可用并已更新，但是与 Oracle 一起运行 OpenOlat 基本上未经测试。在测试整个应用程序之前，请勿将其用于生产。我们有兴趣将 Oracle 添加到我们完全支持和推荐的数据库列表中，如果您想赞助此兼容性，请联系我们。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-troubleshooting" class="anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">故障排除</font></font></h3>
 <ul dir="auto">
 <li>
-<p dir="auto">OutOfMemoryException: in Eclipse: setup VM arguments by clicking on Run &gt; Run Configurations &gt; Arguments &gt; VM Arguments
-and pasting: <code>-XX:+UseG1GC -XX:+UseStringDeduplication -Xms256m -Xmx1024m -Djava.awt.headless=true</code></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OutOfMemoryException：在 Eclipse 中：通过单击 Run &gt; Run Configurations &gt; Arguments &gt; VM Arguments 并粘贴来设置 VM 参数：</font></font><code>-XX:+UseG1GC -XX:+UseStringDeduplication -Xms256m -Xmx1024m -Djava.awt.headless=true</code></p>
 </li>
 <li>
-<p dir="auto">Optional: create an empty olat.local.properties and save it to <code>/yourTomcatDir/lib</code>
-(OpenOlat searches for this file on the classpath and <code>/tomcat/lib</code> is part of it). But it
-should start with just the default config!</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可选：创建一个空的olat.local.properties并将其保存到</font></font><code>/yourTomcatDir/lib</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+（OpenOlat在类路径上搜索此文件并且</font></font><code>/tomcat/lib</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是其中的一部分）。但它应该从默认配置开始！</font></font></p>
 </li>
 <li>
-<p dir="auto">Usually you will get a timeout exception when you start a new OpenOlat. After double clicking
-on the server entry you can increase the timeout for the startup.</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通常，当您启动新的 OpenOlat 时，您会遇到超时异常。双击服务器条目后，您可以增加启动超时。</font></font></p>
 </li>
 <li>
-<p dir="auto">If your tomcat starts very quickly but you cannot access OpenOlat it might be that tomcat did
-not find the OpenOlat context. Right click the server entry and click publish to inform eclipse
-about a new or updated context.</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您的 tomcat 启动速度非常快，但无法访问 OpenOlat，则可能是 tomcat 没有找到 OpenOlat 上下文。右键单击服务器条目，然后单击“发布”以向 Eclipse 通知新的或更新的上下文。</font></font></p>
 </li>
 <li>
-<p dir="auto">If you run into problems with classes or resources not found e.g. <code>ClassNotFoundException</code> right click your
-server config and run the "Clean..." Task to republish all resources. Problems comes mostly when switching
-from eclipse to console and back with command like mvn clean, or eclipse clean and such. You will always get
-a clean and working environment when you do the following: Eclipse clean, create eclipse settings with launch,
-Server publish resources and restart OpenOlat.</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您遇到找不到类或资源的问题，例如</font></font><code>ClassNotFoundException</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">右键单击您的服务器配置并运行“清理...”任务以重新发布所有资源。问题主要发生在使用 mvn clean 或 eclipse clean 等命令从 eclipse 切换到控制台并返回时。当您执行以下操作时，您将始终获得一个干净的工作环境：清理 Eclipse、通过启动创建 Eclipse 设置、服务器发布资源并重新启动 OpenOlat。</font></font></p>
 </li>
 <li>
-<p dir="auto">If you have problems with your postgres database regarding the ownership of the content use these:</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您的 postgres 数据库存在有关内容所有权的问题，请使用以下命令：</font></font></p>
 <ul dir="auto">
-<li>Set owner for tables of your database:
-<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置数据库表的所有者：
+</font></font><ul dir="auto">
 <li><code>for tbl in `psql -qAt -c "select tablename from pg_tables where schemaname = 'public';" &lt;YOURDATABASE&gt;` ; do  psql -c "alter table \"$tbl\" owner to &lt;YOURUSERNAME&gt;" &lt;YOURDATABASE&gt; ; done</code></li>
 </ul>
 </li>
-<li>.. for sequences:
-<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">..对于序列：
+</font></font><ul dir="auto">
 <li><code>for tbl in `psql -qAt -c "select sequence_name from information_schema.sequences where sequence_schema = 'public';" &lt;YOURDATABASE&gt;` ; do  psql -c "alter sequence \"$tbl\" owner to &lt;YOURUSERNAME&gt;" &lt;YOURDATABASE&gt; ; done</code></li>
 </ul>
 </li>
-<li>.. for view:
-<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">..查看：
+</font></font><ul dir="auto">
 <li><code>for tbl in `psql -qAt -c "select table_name from information_schema.views where table_schema = 'public';" &lt;YOURDATABASE&gt;` ; do  psql -c "alter view \"$tbl\" owner to &lt;YOURUSERNAME&gt;" &lt;YOURDATABASE&gt; ; done</code></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-<h4 tabindex="-1" dir="auto"><a id="user-content-eclipse-plugins" class="anchor" aria-hidden="true" tabindex="-1" href="#eclipse-plugins"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Eclipse Plugins</h4>
-<p dir="auto">For a lean and speedy development setup it is recommended to to use a bare-bone Eclipse installation and only install
-the following plugins:</p>
+<h4 tabindex="-1" dir="auto"><a id="user-content-eclipse-plugins" class="anchor" aria-hidden="true" tabindex="-1" href="#eclipse-plugins"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Eclipse 插件</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了实现精简且快速的开发设置，建议使用裸机 Eclipse 安装并仅安装以下插件：</font></font></p>
 <ul dir="auto">
-<li>Data Tools Plattform SQL Development Tools</li>
-<li>Eclipse Java Development Tools</li>
-<li>Eclipse Java EE Developer Tools</li>
-<li>Eclipse Plattform</li>
-<li>Eclipse Web JavaScript Developer Tools</li>
-<li>Git integration for Eclipse</li>
-<li>Javadocs Help Feature</li>
-<li>JavaScript Developement Tools</li>
-<li>JST Server Adapters Extension for Eclipse</li>
-<li>M2E - Maven integration for Eclipse</li>
-<li>m2e-wtp - Maven integration for WTP</li>
-<li>Mylyn WikiText</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据工具平台 SQL 开发工具</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Eclipse Java 开发工具</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Eclipse Java EE 开发人员工具</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">日食平台</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Eclipse Web JavaScript 开发人员工具</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Eclipse 的 Git 集成</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Javadocs 帮助功能</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript 开发工具</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适用于 Eclipse 的 JST 服务器适配器扩展</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">M2E - Eclipse 的 Maven 集成</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">m2e-wtp -WTP 的 Maven 集成</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">迈林维基文本</font></font></li>
 </ul>
-<h3 tabindex="-1" dir="auto"><a id="user-content-background-optional-for-further-interest" class="anchor" aria-hidden="true" tabindex="-1" href="#background-optional-for-further-interest"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Background (optional for further interest)</h3>
-<p dir="auto">There is only one spring context for the whole OpenOlat which you can access via
-CoreSpringFactory. The context is configured with the files <code>serviceconfig/olat.properies</code>
-and can be overwritten with <code>olat.local.properties</code>. Changes in olat.local.properties are
-reflected upon each restart of Tomcat. You can further override OpenOlat settings with
-JVM arguments <code>-Dmy.option=enabled</code>.</p>
-<h3 tabindex="-1" dir="auto"><a id="user-content-compress-javascript-and-css" class="anchor" aria-hidden="true" tabindex="-1" href="#compress-javascript-and-css"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Compress JavaScript and CSS</h3>
-<p dir="auto">The JavaScript and CSS files are minified and aggregated. If you make some changes, run the following
-command to compress them (execution time about 1-2 minutes) and refresh your Eclipse project:</p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-background-optional-for-further-interest" class="anchor" aria-hidden="true" tabindex="-1" href="#background-optional-for-further-interest"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">背景（可选以进一步感兴趣）</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">整个 OpenOlat 只有一个 spring 上下文，您可以通过 CoreSpringFactory 访问它。上下文是用文件配置的</font></font><code>serviceconfig/olat.properies</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+，并且可以用</font></font><code>olat.local.properties</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.每次重新启动 Tomcat 时都会反映 olat.local.properties 中的更改。您可以使用 JVM 参数进一步覆盖 OpenOlat 设置</font></font><code>-Dmy.option=enabled</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-compress-javascript-and-css" class="anchor" aria-hidden="true" tabindex="-1" href="#compress-javascript-and-css"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">压缩 JavaScript 和 CSS</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript 和 CSS 文件被缩小和聚合。如果您进行了一些更改，请运行以下命令来压缩它们（执行时间约为 1-2 分钟）并刷新您的 Eclipse 项目：</font></font></p>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>mvn clean package -Pcompressjs,tomcat</pre><div class="zeroclipboard-container">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="mvn clean package -Pcompressjs,tomcat" tabindex="0" role="button">
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
@@ -376,28 +349,28 @@ command to compress them (execution time about 1-2 minutes) and refresh your Ecl
 </svg>
     </clipboard-copy>
   </div></div>
-<h3 tabindex="-1" dir="auto"><a id="user-content-themes" class="anchor" aria-hidden="true" tabindex="-1" href="#themes"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Themes</h3>
-<p dir="auto"><a href="/OpenOLAT/OpenOLAT/blob/master/src/main/webapp/static/themes/themes.README">Readme</a></p>
-<h3 tabindex="-1" dir="auto"><a id="user-content-rest-api" class="anchor" aria-hidden="true" tabindex="-1" href="#rest-api"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>REST API</h3>
-<p dir="auto">To read the OpenOlat REST API documentation:</p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-themes" class="anchor" aria-hidden="true" tabindex="-1" href="#themes"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主题</font></font></h3>
+<p dir="auto"><a href="/OpenOLAT/OpenOLAT/blob/master/src/main/webapp/static/themes/themes.README"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自述文件</font></font></a></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-rest-api" class="anchor" aria-hidden="true" tabindex="-1" href="#rest-api"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">休息API</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要阅读 OpenOlat REST API 文档：</font></font></p>
 <ol dir="auto">
-<li>start OpenOlat</li>
-<li>go to Administration -&gt; Core configuration -&gt; REST API</li>
-<li>Make sure the REST API is enabled</li>
-<li>Click the documentation link in the admin panel</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">启动OpenOlat</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">转到管理 -&gt; 核心配置 -&gt; REST API</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保 REST API 已启用</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单击管理面板中的文档链接</font></font></li>
 </ol>
-<h3 tabindex="-1" dir="auto"><a id="user-content-automated-tests" class="anchor" aria-hidden="true" tabindex="-1" href="#automated-tests"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Automated tests</h3>
-<h4 tabindex="-1" dir="auto"><a id="user-content-preconditions-1" class="anchor" aria-hidden="true" tabindex="-1" href="#preconditions-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Preconditions</h4>
+<h3 tabindex="-1" dir="auto"><a id="user-content-automated-tests" class="anchor" aria-hidden="true" tabindex="-1" href="#automated-tests"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动化测试</font></font></h3>
+<h4 tabindex="-1" dir="auto"><a id="user-content-preconditions-1" class="anchor" aria-hidden="true" tabindex="-1" href="#preconditions-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">前提条件</font></font></h4>
 <ul dir="auto">
 <li>
-<p dir="auto">Make sure the following ports are not in use (Selenium, Tomcat )
-<code>14444 / 8080 / 8009 / 8089</code></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保以下端口未被使用（Selenium、Tomcat）
+</font></font><code>14444 / 8080 / 8009 / 8089</code></p>
 </li>
 <li>
-<p dir="auto">Make sure you have PostgreSQL 9.4 or newer. The server must be at localhost. For other databases see <a href="#alternate-databases">Alternative databases</a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保您有 PostgreSQL 9.4 或更高版本。服务器必须位于本地主机。对于其他数据库，请参阅</font></font><a href="#alternate-databases"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">替代数据库</font></font></a></p>
 </li>
 <li>
-<p dir="auto">Make sure maven has enough memory. E.g execute the following:</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保maven有足够的内存。例如执行以下命令：</font></font></p>
 </li>
 </ul>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">export</span> MAVEN_OPTS= -Xms512m -Xmx1024m
@@ -413,7 +386,7 @@ mvn compile -Pdocumentation,tomcat" tabindex="0" role="button">
     </clipboard-copy>
   </div></div>
 <ul dir="auto">
-<li>Make sure the tmp directory is writable. E.g. execute the following.</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保 tmp 目录可写。例如执行以下命令。</font></font></li>
 </ul>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>ls -la <span class="pl-s"><span class="pl-pds">`</span>printenv TMPDIR<span class="pl-pds">`</span></span></pre><div class="zeroclipboard-container">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="ls -la `printenv TMPDIR`" tabindex="0" role="button">
@@ -425,8 +398,8 @@ mvn compile -Pdocumentation,tomcat" tabindex="0" role="button">
 </svg>
     </clipboard-copy>
   </div></div>
-<h4 tabindex="-1" dir="auto"><a id="user-content-setup-necessary-only-once" class="anchor" aria-hidden="true" tabindex="-1" href="#setup-necessary-only-once"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Setup (necessary only once)</h4>
-<p dir="auto">Setup database users and tables in the pom.xml. The default settings for PostgreSQL are:</p>
+<h4 tabindex="-1" dir="auto"><a id="user-content-setup-necessary-only-once" class="anchor" aria-hidden="true" tabindex="-1" href="#setup-necessary-only-once"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置（只需一次）</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 pom.xml 中设置数据库用户和表。 PostgreSQL 的默认设置是：</font></font></p>
 <div class="highlight highlight-text-xml notranslate position-relative overflow-auto" dir="auto"><pre>&lt;<span class="pl-ent">test</span>.env.db.name&gt;olattest&lt;/<span class="pl-ent">test</span>.env.db.name&gt;
 &lt;<span class="pl-ent">test</span>.env.db.postgresql.user&gt;postgres&lt;/<span class="pl-ent">test</span>.env.db.postgresql.user&gt;
 &lt;<span class="pl-ent">test</span>.env.db.postgresql.pass&gt;postgres&lt;/<span class="pl-ent">test</span>.env.db.postgresql.pass&gt;</pre><div class="zeroclipboard-container">
@@ -441,11 +414,9 @@ mvn compile -Pdocumentation,tomcat" tabindex="0" role="button">
 </svg>
     </clipboard-copy>
   </div></div>
-<p dir="auto">You can override them with -D in the command line.</p>
-<p dir="auto">You need an empty database named <code>olattest</code>. The maven command will create and drop
-databases automatically but need an existing database to do that. Here we will
-explain it with PostgreSQL.</p>
-<p dir="auto">Create user <code>postgres</code> and a database <code>olattest</code></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在命令行中使用 -D 覆盖它们。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要一个名为 的空数据库</font></font><code>olattest</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 maven 命令将自动创建和删除数据库，但需要现有数据库才能执行此操作。这里我们用PostgreSQL来解释一下。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建用户</font></font><code>postgres</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和数据库</font></font><code>olattest</code></p>
 <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">CREATE</span> <span class="pl-k">USER</span> <span class="pl-en">postgres</span> WITH PASSWORD <span class="pl-s"><span class="pl-pds">'</span>postgres<span class="pl-pds">'</span></span>;
 <span class="pl-k">CREATE</span> <span class="pl-k">DATABASE</span> <span class="pl-en">olattest</span>;
 <span class="pl-k">GRANT</span> ALL PRIVILEGES <span class="pl-k">on</span> DATABASE olattest to postgres;</pre><div class="zeroclipboard-container">
@@ -460,7 +431,7 @@ GRANT ALL PRIVILEGES on DATABASE olattest to postgres;" tabindex="0" role="butto
 </svg>
     </clipboard-copy>
   </div></div>
-<p dir="auto">Write the OpenOlat database schema to the test database:</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将 OpenOlat 数据库架构写入测试数据库：</font></font></p>
 <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir="auto"><pre>\c olattest postgres;
 \i src<span class="pl-k">/</span>main<span class="pl-k">/</span>resources<span class="pl-k">/</span>database<span class="pl-k">/</span>postgresql<span class="pl-k">/</span><span class="pl-c1">setupDatabase</span>.<span class="pl-c1">sql</span></pre><div class="zeroclipboard-container">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="\c olattest postgres;
@@ -473,11 +444,10 @@ GRANT ALL PRIVILEGES on DATABASE olattest to postgres;" tabindex="0" role="butto
 </svg>
     </clipboard-copy>
   </div></div>
-<p dir="auto">When using MySQL or Oracle make sure you are using the right db user as configured in
-the pom.xml or override them in the test properties file.</p>
-<h4 tabindex="-1" dir="auto"><a id="user-content-execute-junit-tests-in-eclipse" class="anchor" aria-hidden="true" tabindex="-1" href="#execute-junit-tests-in-eclipse"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Execute JUnit tests in Eclipse</h4>
-<p dir="auto">Open the class <code>org.olat.test.AllTestsJunit4org.olat.test.AllTestsJunit4</code>.</p>
-<p dir="auto">Righ-click on the class <code>Run as -&gt; Run configuration</code>. Add your database configuration as VM parameters, e.g.</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 MySQL 或 Oracle 时，请确保使用 pom.xml 中配置的正确数据库用户或在测试属性文件中覆盖它们。</font></font></p>
+<h4 tabindex="-1" dir="auto"><a id="user-content-execute-junit-tests-in-eclipse" class="anchor" aria-hidden="true" tabindex="-1" href="#execute-junit-tests-in-eclipse"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 Eclipse 中执行 JUnit 测试</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开课了</font></font><code>org.olat.test.AllTestsJunit4org.olat.test.AllTestsJunit4</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">右键单击该类</font></font><code>Run as -&gt; Run configuration</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。添加您的数据库配置作为VM参数，例如</font></font></p>
 <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">-</span><span class="pl-c1">Ddb</span>.<span class="pl-c1">name</span><span class="pl-k">=</span>olattest
 <span class="pl-k">-</span><span class="pl-c1">Ddb</span>.<span class="pl-c1">user</span><span class="pl-k">=</span>postgres
 <span class="pl-k">-</span><span class="pl-c1">Ddb</span>.<span class="pl-c1">pass</span><span class="pl-k">=</span>postgres</pre><div class="zeroclipboard-container">
@@ -492,10 +462,10 @@ the pom.xml or override them in the test properties file.</p>
 </svg>
     </clipboard-copy>
   </div></div>
-<p dir="auto">Run the tests</p>
-<h4 tabindex="-1" dir="auto"><a id="user-content-execute-junit-tests-on-the-command-line" class="anchor" aria-hidden="true" tabindex="-1" href="#execute-junit-tests-on-the-command-line"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Execute JUnit tests on the command line</h4>
-<p dir="auto">The JUnit tests load the framework to execute (execution time ca. 10m)</p>
-<p dir="auto"><strong>For PostgreSQL</strong></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行测试</font></font></p>
+<h4 tabindex="-1" dir="auto"><a id="user-content-execute-junit-tests-on-the-command-line" class="anchor" aria-hidden="true" tabindex="-1" href="#execute-junit-tests-on-the-command-line"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在命令行上执行 JUnit 测试</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JUnit 测试加载框架来执行（执行时间约 10m）</font></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于 PostgreSQL</font></font></strong></p>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>mvn clean <span class="pl-c1">test</span> -Dwith-postgresql -Ptomcat</pre><div class="zeroclipboard-container">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="mvn clean test -Dwith-postgresql -Ptomcat" tabindex="0" role="button">
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
@@ -506,7 +476,7 @@ the pom.xml or override them in the test properties file.</p>
 </svg>
     </clipboard-copy>
   </div></div>
-<p dir="auto">with the options (only required if you don't use the standard settigns from above):</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用选项（仅当您不使用上面的标准设置时才需要）：</font></font></p>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>-Dtest.env.db.postgresql.user=postgres
 -Dtest.env.db.postgresql.pass=serial</pre><div class="zeroclipboard-container">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="-Dtest.env.db.postgresql.user=postgres
@@ -519,8 +489,7 @@ the pom.xml or override them in the test properties file.</p>
 </svg>
     </clipboard-copy>
   </div></div>
-<p dir="auto">To only run the OpenOlat test suite and exclude the unit tests of QtiWorks, add the following
-option:</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要仅运行 OpenOlat 测试套件并排除 QtiWorks 的单元测试，请添加以下选项：</font></font></p>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>-Dtest=org.olat.test.AllTestsJunit4</pre><div class="zeroclipboard-container">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="-Dtest=org.olat.test.AllTestsJunit4" tabindex="0" role="button">
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
@@ -531,7 +500,7 @@ option:</p>
 </svg>
     </clipboard-copy>
   </div></div>
-<p dir="auto">Example:</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例子：</font></font></p>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>mvn clean <span class="pl-c1">test</span> -Dwith-postgresql -Dtest.env.db.postgresql.pass=serial -Dtest=org.olat.test.AllTestsJunit4 -Ptomcat</pre><div class="zeroclipboard-container">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="mvn clean test -Dwith-postgresql -Dtest.env.db.postgresql.pass=serial -Dtest=org.olat.test.AllTestsJunit4 -Ptomcat" tabindex="0" role="button">
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
@@ -542,7 +511,7 @@ option:</p>
 </svg>
     </clipboard-copy>
   </div></div>
-<p dir="auto"><strong>For MySQL</strong></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于MySQL</font></font></strong></p>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>mvn clean <span class="pl-c1">test</span> -Dwith-mysql -Ptomcat</pre><div class="zeroclipboard-container">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="mvn clean test -Dwith-mysql -Ptomcat" tabindex="0" role="button">
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
@@ -553,7 +522,7 @@ option:</p>
 </svg>
     </clipboard-copy>
   </div></div>
-<p dir="auto">The following options are available to configure the database connection:</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以下选项可用于配置数据库连接：</font></font></p>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>-Dtest.env.db.user=root
 -Dtest.env.db.pass=serial</pre><div class="zeroclipboard-container">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="-Dtest.env.db.user=root
@@ -566,7 +535,7 @@ option:</p>
 </svg>
     </clipboard-copy>
   </div></div>
-<p dir="auto"><strong>For Oracle</strong></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于甲骨文</font></font></strong></p>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">手动设置用户和数据库架构。从一个干净的设置开始，在创建一个干净的新用户之前删除该用户。</font></font></p>
 <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">drop</span> <span class="pl-k">user</span> OLATTEST cascade;</pre><div class="zeroclipboard-container">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="drop user OLATTEST cascade;" tabindex="0" role="button">
